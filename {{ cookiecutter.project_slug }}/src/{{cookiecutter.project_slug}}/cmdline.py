@@ -39,3 +39,6 @@ def run():
     """Run command"""
     init_log()
     click.echo('run......')
+
+if __name__ == '__main__':
+    main()
