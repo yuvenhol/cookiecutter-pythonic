@@ -2,8 +2,8 @@
     "project_name": "My Project",
     "project_slug": "{{ cookiecutter.project_name.lower()|trim()|replace(' ', '_')|replace('-', '_')|replace('.', '_') }}",
     "project_description": "My Awesome Project!",
-    "author_name": "Author",
-    "author_email": "{{ cookiecutter.author_name.lower()|trim()|replace(' ', '-') }}@example.com",
+    "author_name": "yuvenhol",
+    "author_email": "yuvenhol@gmail.com",
     "version": "0.1.0",
     "python_version": [
         "3.10",
