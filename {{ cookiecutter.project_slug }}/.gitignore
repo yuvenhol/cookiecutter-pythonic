@@ -182,3 +182,5 @@ venv.bak/
 **/*.local.yml
 **/.secrets.yml
 {%- endif %}
+
+poetry.lock
