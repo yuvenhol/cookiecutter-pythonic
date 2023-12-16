@@ -2,7 +2,6 @@
 Configuration center.
 Use https://www.dynaconf.com/
 """""
-import os
 import sys
 from pathlib import Path
 
@@ -26,7 +25,7 @@ settings = Dynaconf(
     # Set env `{{ project_slug_upper }}_FOO='bar'`，use `settings.FOO` .
     envvar_prefix='{{ project_slug_upper }}',
     settings_files=_settings_files,  # load user configuration.
-    # environments=True,  # Enable multi-level configuration，eg: default, development, production
+    environments=True,  # Enable multi-level configuration，eg: default, development, production
     load_dotenv=True,  # Enable load .env
     # env_switcher='{{ project_slug_upper }}_ENV',
     lowercase_read=False,  # If true, can't use `settings.foo`, but can only use `settings.FOO`

@@ -51,13 +51,13 @@ def init_log() -> None:
                 'level': 'DEBUG',
                 'formatter': verbose_formatter(settings.VERBOSE),
                 'filename': os.path.join(settings.LOGPATH, 'all.log'),
-                'maxBytes': 1024 * 1024 * 1024 * 200,  # 200M
+                'maxBytes': 1024 * 1024 * 1024 * 1,  #MB
                 'backupCount': '5',
                 'encoding': 'utf-8'
             },
         },
         "loggers": {
-            '': {'level': log_level, 'handlers': ['console']},
+            '': {'level': log_level, 'handlers': ['console','file']},
         }
     }
 

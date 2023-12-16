@@ -1,4 +1,5 @@
-verbose: false
-debug: false
-loglevel: warning
-logpath: /tmp/{{ cookiecutter.project_slug }}
+default:
+  verbose: false
+  debug: false
+  loglevel: INFO
+  logpath: log

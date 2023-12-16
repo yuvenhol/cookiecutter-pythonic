@@ -178,9 +178,3 @@ pre-commit install
 
 更多使用细节请查看 [使用说明](./docs/usage.md) 。
 
-## 开发与协作
-
-- fork
-- code
-- test
-- pr
