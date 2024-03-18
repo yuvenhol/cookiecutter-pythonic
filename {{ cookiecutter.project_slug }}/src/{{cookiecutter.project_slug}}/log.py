@@ -37,7 +37,7 @@ def init_log() -> None:
                 'format': '%(asctime)s %(levelname)s %(name)s %(process)d %(thread)d %(message)s',
             },
             'simple': {
-                'format': '%(asctime)s %(levelname)s %(name)s %(message)s',
+                'format': '%(asctime)s %(levelname)s %(filename)s [line:%(lineno)d] - %(message)s',
             },
         },
         "handlers": {

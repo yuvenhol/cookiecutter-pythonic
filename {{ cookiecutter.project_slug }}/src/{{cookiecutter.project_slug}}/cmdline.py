@@ -33,11 +33,12 @@ def main(ctx: Context, version: str, verbose: bool, debug: bool):
         if debug:
             settings.set('DEBUG', True)
 
+    init_log()
+
 
 @main.command()
 def run():
     """Run command"""
-    init_log()
     click.echo('run......')
 
 if __name__ == '__main__':
