@@ -20,14 +20,6 @@ click = "^8.1.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"
-<<<<<<< HEAD
-=======
-tox = "^4.5.2"
-mkdocs = "^1.4.3"
-mkdocs-material = "^8.5.11"
->>>>>>> parent of c50baaf (删点东西)
-pytest-pylint = "^0.19.0"
-pre-commit = "^3.3.2"
 
 {% if cookiecutter.init_skeleton|lower  == 'y' -%}
 [tool.poetry.scripts]

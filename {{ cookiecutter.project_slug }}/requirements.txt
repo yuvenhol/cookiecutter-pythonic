@@ -4,8 +4,4 @@ click
 {% endif -%}
 
 # Dev
-tox
-pylint
-isort
 pytest
-pytest-cov
